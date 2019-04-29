@@ -1,8 +1,6 @@
-let index;
-let answer;
-
 function capitalize(str) {
-  index = str.charCodeAt(0);
+  const index = str.charCodeAt(0);
+  let answer;
 
   if (index >= 97 && index <= 122) {
     answer = str.replace(String.fromCharCode(index), String.fromCharCode(index - 32));
