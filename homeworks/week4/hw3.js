@@ -8,7 +8,7 @@ if (inputNum[2] === 'list') {
   request('https://lidemy-book-store.herokuapp.com/books/',
     (error, response, body) => {
       const books = JSON.parse(body);
-      for (let i = 0; i < 20; i += 1) {
+      for (let i = 0; i < books.length; i += 1) {
         console.log(`${books[i].id} ${books[i].name}`);
       }
     });
