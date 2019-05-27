@@ -281,16 +281,16 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 #### 自我檢測
 
-- [ ] 你知道 HTML 是在做什麼的
-- [ ] 你知道如何使用有語意的（semantic）標籤
-- [ ] 你知道基本 SEO 的概念
-- [ ] 你知道 CSS 是什麼
-- [ ] 你知道 inline、block 跟 inline-block 的區別
-- [ ] 你知道什麼是 box model
-- [ ] 你知道 position 的所有屬性及其差別
-- [ ] 你知道 :hover, :before, :after
-- [ ] 你知道 :nth-child 的各種用法
-- [ ] 你熟悉 CSS selector，可以輕鬆選到想選到的元素
+- [x] 你知道 HTML 是在做什麼的
+- [x] 你知道如何使用有語意的（semantic）標籤
+- [x] 你知道基本 SEO 的概念
+- [x] 你知道 CSS 是什麼
+- [x] 你知道 inline、block 跟 inline-block 的區別
+- [x] 你知道什麼是 box model
+- [x] 你知道 position 的所有屬性及其差別
+- [x] 你知道 :hover, :before, :after
+- [x] 你知道 :nth-child 的各種用法
+- [x] 你熟悉 CSS selector，可以輕鬆選到想選到的元素
 
 ### 第七週（05/27 ~ 06/02）：前端基礎（二）
 
