@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.head{
+	font-size:50px;
+	margin: 20px 0;
+	font-weight:300;
+	padding:10px 10px
+ }
+
+.content{
+	font-size: 20px;
+	white-space: pre-line;
+	padding:10px 10px;
+}
+
+.clap{
+	position: absolute;
+	left: 30px;
+	top: 150px;
+	border:1px solid grey;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+}
+@media screen and (max-width: 1200px){
+		.clap{
+			display: none;
+		}
+}
+
+.clap div{
+	text-align:center;
+}
+
+.clap div:hover{
+	cursor:pointer;
+}
+
+.clap__number{
+	margin: 8px 0 0 0;
+}
+
