@@ -311,14 +311,14 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 #### 自我檢測
 
-- [ ] 你知道 JavaScript 跑在網頁上跟跑在 Node.js 上差在哪裡
-- [ ] 你知道 DOM 是什麼
-- [ ] 你知道如何用 JavaScript 操控 DOM 物件
-- [ ] 你知道如何幫一個按鈕加上 event listener
-- [ ] 你知道捕獲與冒泡是什麼
-- [ ] 你知道什麼是事件代理（delegation）
-- [ ] 你知道怎麼用 JavaScript 更改元素的 style
-- [ ] 你知道 preventDefault 與 stopPropagation 的差異 
+- [x] 你知道 JavaScript 跑在網頁上跟跑在 Node.js 上差在哪裡
+- [x] 你知道 DOM 是什麼
+- [x] 你知道如何用 JavaScript 操控 DOM 物件
+- [x] 你知道如何幫一個按鈕加上 event listener
+- [x] 你知道捕獲與冒泡是什麼
+- [x] 你知道什麼是事件代理（delegation）
+- [x] 你知道怎麼用 JavaScript 更改元素的 style
+- [x] 你知道 preventDefault 與 stopPropagation 的差異 
 
 ### 第八週（06/03 ~ 06/09）：前端基礎（三）
 
