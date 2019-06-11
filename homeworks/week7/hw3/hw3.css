@@ -1,0 +1,84 @@
+body{
+	margin:0;
+}
+
+.same-border {
+	border: 0.3px	solid #CCCCCC;
+}
+
+#main {
+	width: 800px;
+	height: 400px;
+	position: relative;
+	margin: 0 auto;
+	top: 100px;
+}
+
+#body {
+	margin: 10px;
+}
+
+#header {
+	position: relative;
+	width: 100%;
+	height: 100px;
+	margin-bottom: 10px;
+} 
+
+#result {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	font-size:70px;
+}
+
+#wrap {
+	width: 100%;
+	height: 230px;
+}
+
+.row {
+	width: 100%;
+	height: 20%;
+	display:flex;
+}
+
+.row:first-child > .btn:nth-child(2) {
+	visibility:hidden;
+}
+
+.row:first-child > .btn:nth-child(3) {
+	visibility:hidden;
+}
+
+
+.row:not(first-child){
+	margin-bottom:10px;
+}
+
+.row:last-child > .btn:nth-child(1) {
+	width:24.5%;
+}
+
+.row:last-child > .btn:nth-child(2) {
+	width:24.5%;
+}
+
+.row:last-child > .btn:last-child {
+	width:50%;
+	background: orange;
+}
+
+.btn {
+	width:25%;
+	text-align:center;
+	padding-top:10px;
+	border: 0.3px	solid #CCCCCC;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.btn:nth-child(n+2){
+	margin-left:10px;
+}
+
