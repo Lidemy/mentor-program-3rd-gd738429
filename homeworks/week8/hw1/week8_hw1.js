@@ -31,6 +31,7 @@ request.onload = () => {
   }
 };
 request.onerror = () => {
+  alert('系統不穩定，請再試一次');
   console.log(request.responseText);
 };
 request.open('GET', 'https://dvwhnbka7d.execute-api.us-east-1.amazonaws.com/default/lottery', true);
