@@ -1,0 +1,18 @@
+#bingo {
+	margin-top: 80px;
+	display:flex;
+	align-items:center;
+  justify-content:center;
+}
+
+#bingo__message {
+	font-size: 35px;
+}
+
+.bg-sky {
+	background: #3CB3B9;
+}
+
+.bg-black {
+	background: black;
+}
