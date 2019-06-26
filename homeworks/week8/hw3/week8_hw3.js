@@ -8,14 +8,14 @@ const contentRow = document.querySelector('.content__row');
 function setAllItem() {
   for (let j = 0; j < 20; j += 1) {
     const item = document.createElement('div');
+    const logos = json.streams[counter].channel.logo;
     const preview = json.streams[counter].preview.large;
     const title = json.streams[counter].channel.name;
-    const logo2 = json.streams[counter].channel.logo;
 
     item.classList.add('content__row__item');
     item.innerHTML = `<img src=${preview} alt='error' class="content__row__item__img"></img>
       <div class="content__row__item__footer">
-      <img src=${logo2} alt="error" class="content__row__item__footer__icon"/>
+      <img src=${logos} alt="error" class="content__row__item__footer__icon"/>
       <div class="content__row__item__footer__label">${title}</div>
       </div>`;
     contentRow.appendChild(item);
