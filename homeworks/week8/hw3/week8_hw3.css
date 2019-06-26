@@ -1,50 +1,69 @@
 body {
 	margin: 0;
 	font-size: 30px;
-	background: #333;
+	background: #333; 
 }
 
 .content {
 	margin: 0 auto;
 	width: 1000px;
 	padding: 20px;
-	background: red;
 }
 
 .content__row {
-	/* width: 90%; */
-	display: flex;
+	/* display: inline-block; */
 	height: 300px;
-	background: #456;
-	/* margin: 0 auto; */
-	margin-top: 20px;
-	/* margin-left: 23px; */
+	/* margin-top: 20px; */
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 35px;
 }
 
 .content__row__item {
-	margin: 15px;
-	border: 0.5px solid yellow;
+	display: inline-block;
+	margin: 16px;
 	width: 30%;
-	height: 300px;
+	height: 280px;
 	color: white;
 	align-items: center;
 	background: #123;
-
 }
 
 .content__row__item:first-child {
-	margin-left: 10px;
+	/* margin-left: 10px; */
 }
 
 .content__row__item__img {
-	position: absolute;
+	/* position: absolute; */
+	width: 100%;
+	height: 200px;
 }
 
 .content__row__item__footer {
-	bottom: px;
+	display: flex;
 	background: rgba(255, 255, 0 ,0.1);
 	height: 80px;
 	position: relative;
-	top: 220px;
+	top: -11px;
 	om: 5px;
 }
+
+.content__row__item__footer__icon {
+  width: 20%;
+  height: 65px;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+.content__row__item__footer__label {
+  margin-left: 10px;
+  font-size: 33px;
+  width: 60%;
+  height: 80px;
+  line-height: 2.5em;
+  word-break: break-all;
+}
+
+
+
+
