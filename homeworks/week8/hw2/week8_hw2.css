@@ -1,0 +1,40 @@
+body {
+	font-size: 30px;
+	margin: 0;
+	color: white;
+}
+
+.add__msg {
+    margin-top: 20px;
+    margin-left: 123px;
+    background: #800F30;
+    height: 80px;
+    line-height: 65px;
+    padding: 10px;
+    width: 77%;
+}
+
+.add__msg__input {
+	width: 500px;
+	line-height: 30px;
+}
+
+.add__msg__btn:hover {
+	cursor: pointer;
+}
+
+.review__msg {
+	  background: #B6516C;
+	  margin-left: 104px;
+	  padding: 10px 50px;
+	  width: 74%;
+}
+
+.review__msg__title {
+	font-size: 45px;
+	margin-left: -38px;
+}
+
+.review__msg__list {
+	margin-top:10px;
+}
